@@ -5,11 +5,15 @@
     float:right;
     margin-left:10px;
 }
+#img2{
+    border-style:solid;
+    border-color:rgb(58, 38, 13);
+    
+}
 header{
     display:flex;
     FLEX-DIRECTION:column;
     justify-content: center; 
-   color:rgb(219, 97, 9)
 }
 ul {
     list-style-type: none;
@@ -28,7 +32,7 @@ a:link {
     text-decoration: none;
 }
 a:hover{
-    color:rgb(231, 197, 61);
+    color:rgb(231, 61, 69);
 }
 h2 {
     color: rgb(224, 164, 111);
@@ -39,13 +43,13 @@ main{
     border-style:double;
     padding:10px;
     border-color:#d1976b;
-    background-color: rgb(38, 26, 1);
+    background-color: rgb(38, 1, 1);
     color:rgb(224, 164, 111);
     display:flex;
     flex-direction:column;
     justify-content: right;
-    font-size:15px;
-
+    font-size:13px;
+    width: 70%;
 
 }
 body {
@@ -56,13 +60,12 @@ form{
     color:rgb(224, 164, 111);
     font-family:'Courier New', Courier, monospace;
     font-size:15px;
-    margin-right:10px;
     margin-top:10px;
-    float:left;
-    width:20%;
-     border-radius: 10px;
+    float:right;
+    width: 170px;
+    border-radius: 10px;
     border-style:double;
-    padding:10px;
+    padding:5px;
     border-color:#d1976b;
     background-color: rgb(38, 26, 1);
     color:rgb(224, 164, 111);
@@ -72,18 +75,23 @@ section{
     color:rgb(224, 164, 111);
     font-family:'Courier New', Courier, monospace;
     font-size:20px;
-    margin-right:10px;
-    margin-top:10px;
+    margin-right:5px;
+    margin-top:5px;
     float:left;
-    width:70%;
+    width: 70%;
      border-radius: 10px;
     border-style:double;
     padding:10px;
     border-color:#d1976b;
     background-color: rgb(38, 26, 1);
-    font-size:15px;
+    font-size: 12px;
 }
 footer{
+    display:flex;
+    justify-content: center;
     position: absolute;
     bottom:0;
+}
+#main2{
+    width:95%
 }
