@@ -23,19 +23,19 @@ ul {
     background-color:rgb(224, 203, 161);
     padding: 10px;
     border-style:double;
-    border-color:rgb(146, 103, 44);
+    border-color:rgb(133, 105, 66);
     border-width: 5px;
 }
 
 a:link {
-    color: rgb(76, 62, 7);
+    color: rgb(146, 126, 45);
     text-decoration: none;
 }
 a:hover{
     color:rgb(231, 61, 69);
 }
 h2 {
-    color: rgb(224, 164, 111);
+    color: rgb(160, 120, 86);
     font-family:'Courier New', Courier, monospace;
 }
 main{
